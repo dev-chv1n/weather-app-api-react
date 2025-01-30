@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+body{
+  background-color: rgb(245, 245, 245);
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* add the code bellow */ 
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
+}
